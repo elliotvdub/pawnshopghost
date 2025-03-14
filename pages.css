@@ -7,13 +7,32 @@ body {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .page {
   background-color: black;
   height: 100px;
   width: 100%;
 }
 
-.header {
+.emoji {
+  color: antiquewhite;
+}
+
+.heading {
+  font-family: "Rubik Iso";
+  color: antiquewhite;
+  text-align: center;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.song {
   color: antiquewhite;
 }
 
